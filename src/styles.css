@@ -237,11 +237,10 @@ a:focus-visible,
 .nav {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   gap: 0.35rem;
   min-width: 0;
-  overflow-x: auto;
-  overflow-y: hidden;
+  overflow: auto;
   scrollbar-width: thin;
   padding: 0.25rem;
   border: 1px solid color-mix(in srgb, var(--line) 72%, transparent);
@@ -267,11 +266,10 @@ a:focus-visible,
 }
 
 .nav a {
-  flex: 0 0 auto;
   min-height: 44px;
   display: inline-flex;
-  align-items: center;
-  padding: 0.55rem 0.85rem;
+  align-items: flex-start;
+  padding: 0.85rem;
   border-radius: 7px;
   color: var(--muted);
   font-weight: 700;
@@ -280,6 +278,7 @@ a:focus-visible,
     background 140ms ease,
     color 140ms ease,
     box-shadow 140ms ease;
+  white-space: nowrap;
 }
 
 .nav a:hover {
@@ -1307,13 +1306,10 @@ a:focus-visible,
     justify-content: center;
     min-width: 0;
     text-align: center;
-    white-space: normal;
   }
 }
 
 @media (max-width: 1024px) {
-
-
   .hero {
     min-height: auto;
     padding: clamp(2rem, 5vw, 3rem);
