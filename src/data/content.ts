@@ -142,7 +142,7 @@ export const buildings: Building[] = [
       'Интерактивная карточка поддерживает фото, видео и текстовое описание.',
     ],
     mediaHint: 'Видеомаршрут от западного входа до башни размещается в этом блоке.',
-    mediaVideo: 'media/3-korp.mp4', // todo БАШНЯ ГДЕ?
+    mediaVideo: 'media/4-korp.mp4',
   },
   {
     id: '5',
