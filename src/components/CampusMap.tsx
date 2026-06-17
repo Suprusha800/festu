@@ -195,7 +195,7 @@ export function CampusMap({ buildings, activeId, onHover, onLeave, onSelect }: C
       <div className="campusMapImageWrap">
         <img
           className="campusMapImage"
-          src="/media/campus-map.png"
+          src="media/campus-map.png"
           alt="Схема территории ДВГУПС с корпусами 1-9 и парковкой"
         />
 

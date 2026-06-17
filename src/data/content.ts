@@ -87,7 +87,7 @@ export const buildings: Building[] = [
       'Адаптированный санитарно-гигиенический узел.',
     ],
     mediaHint: 'Фото входной группы, видео маршрута и обзор холла размещаются в этом блоке.',
-    mediaVideo: '/media/1-korp.mp4',
+    mediaVideo: 'media/1-korp.mp4',
   },
   {
     id: '2',
@@ -106,7 +106,7 @@ export const buildings: Building[] = [
       'Адаптированный санитарный узел со стационарными поручнями.',
     ],
     mediaHint: 'Подойдет короткое видео пути от входа до лабораторий или фото информационных табличек.',
-    mediaVideo: '/media/2-korp.mp4',
+    mediaVideo: 'media/2-korp.mp4',
   },
   {
     id: '3',
@@ -124,7 +124,7 @@ export const buildings: Building[] = [
       'Медиаобзор объекта доступен в отдельной зоне карточки.',
     ],
     mediaHint: 'Фото входа и видео перехода от центральной дорожки размещаются в этом блоке.',
-    mediaVideo: '/media/3-korp.mp4',
+    mediaVideo: 'media/3-korp.mp4',
   },
   {
     id: '4',
@@ -142,7 +142,7 @@ export const buildings: Building[] = [
       'Интерактивная карточка поддерживает фото, видео и текстовое описание.',
     ],
     mediaHint: 'Видеомаршрут от западного входа до башни размещается в этом блоке.',
-    mediaVideo: '/media/3-korp.mp4', // todo БАШНЯ ГДЕ?
+    mediaVideo: 'media/3-korp.mp4', // todo БАШНЯ ГДЕ?
   },
   {
     id: '5',
@@ -162,7 +162,7 @@ export const buildings: Building[] = [
       'Желтая маркировка краев лестничных маршей.',
     ],
     mediaHint: 'Фото пандуса, входа и навигации к санитарному помещению размещаются в этом блоке.',
-    mediaVideo: '/media/5-korp.mp4',
+    mediaVideo: 'media/5-korp.mp4',
   },
   {
     id: '6',
@@ -180,7 +180,7 @@ export const buildings: Building[] = [
       'Маршрут можно связать с парковкой для лиц с инвалидностью.',
     ],
     mediaHint: 'Фото входа со стороны ул. Герасимова размещается в этом блоке.',
-    mediaVideo: '/media/6-korp.mp4',
+    mediaVideo: 'media/6-korp.mp4',
   },
   {
     id: '7',
@@ -198,7 +198,7 @@ export const buildings: Building[] = [
       'Видео перехода от стадиона к корпусу доступно в медиаобзоре.',
     ],
     mediaHint: 'Подойдет видео перехода от центрального двора к корпусу.',
-    mediaVideo: '/media/7-korp.mp4',
+    mediaVideo: 'media/7-korp.mp4',
   },
   {
     id: '8',
@@ -216,7 +216,7 @@ export const buildings: Building[] = [
       'Поддерживается привязка фото или видео к точке карты.',
     ],
     mediaHint: 'Обзор площадки и ближайших дорожек размещается в этом блоке.',
-    mediaImage: '/media/P.png',
+    mediaImage: 'media/P.png',
   },
   {
     id: '9',
@@ -234,7 +234,7 @@ export const buildings: Building[] = [
       'Поддерживается привязка фото или видео к точке карты.',
     ],
     mediaHint: 'Обзор территории и ближайших дорожек размещается в этом блоке.',
-    mediaVideo: '/media/7-korp.mp4',
+    mediaVideo: 'media/7-korp.mp4',
   },
   {
     id: 'P',
@@ -252,7 +252,7 @@ export const buildings: Building[] = [
       'Удобная точка старта для видео-паспорта доступности.',
     ],
     mediaHint: 'Здесь полезны фото разметки парковки и короткое видео маршрута от парковки к входу.',
-    mediaImage: '/media/P.png',
+    mediaImage: 'media/P.png',
   },
 ];
 

@@ -112,7 +112,7 @@ export function App() {
         <div className="headerTop">
           <a className="brand" href="#main" aria-label="ДВГУПС доступная среда, на главную">
             <span className="brandMark" aria-hidden="true">
-              <img src="/media/dvgups-logo.png" alt="" />
+              <img src="media/dvgups-logo.png" alt="" />
             </span>
             <span>
               <strong>ДВГУПС</strong>
@@ -350,8 +350,8 @@ export function App() {
               <video
                   controls
                   preload="metadata"
-                  poster="/media/video-passport-poster.svg"
-                  src="/media/accessibility-passport.mp4"
+                  poster="media/video-passport-poster.svg"
+                  src="media/accessibility-passport.mp4"
               ></video>
             </div>
           </div>
@@ -465,7 +465,7 @@ export function App() {
       <footer className="footer" aria-label="Дополнительная информация">
         <div className="footerBrand">
           <span className="brandMark" aria-hidden="true">
-            <img src="/media/dvgups-logo.png" alt="" />
+            <img src="media/dvgups-logo.png" alt="" />
           </span>
           <div>
             <strong>ДВГУПС</strong>
