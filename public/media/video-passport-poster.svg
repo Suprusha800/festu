@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Видео-паспорт доступности</title>
+  <desc id="desc">Постер видео о доступной среде ДВГУПС.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d5f6b"/>
+      <stop offset="0.55" stop-color="#153943"/>
+      <stop offset="1" stop-color="#d8a51d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect x="80" y="70" width="1160" height="580" rx="24" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.35)" stroke-width="3"/>
+  <circle cx="640" cy="322" r="76" fill="#ffffff"/>
+  <path d="M616 278 L616 366 L690 322 Z" fill="#0d5f6b"/>
+  <text x="640" y="470" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="54" font-weight="700">Видео-паспорт доступности</text>
+  <text x="640" y="530" text-anchor="middle" fill="#d9eef2" font-family="Arial, sans-serif" font-size="30">ДВГУПС • маршруты • озвучка • субтитры</text>
+</svg>
