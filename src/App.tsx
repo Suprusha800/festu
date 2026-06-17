@@ -374,10 +374,12 @@ export function App() {
               const Icon = equipmentIcons[item.group];
               return (
                 <article className="equipmentItem" key={item.title}>
-                  <span className={`equipmentIcon ${item.group}`}>
+                  <div className="equipmentItemContent">
+                    <span className={`equipmentIcon ${item.group}`}>
                     <Icon size={22} />
                   </span>
-                  <h3>{item.title}</h3>
+                    <h3>{item.title}</h3>
+                  </div>
                   <p>{item.description}</p>
                 </article>
               );
