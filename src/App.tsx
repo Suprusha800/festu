@@ -442,7 +442,7 @@ export function App() {
           <div className="sectionHeader">
             <span className="eyebrow">Контакты</span>
             <h2>Куда обратиться</h2>
-            <p>Контактные данные взяты с официального сайта университета.</p>
+            <p>Актуальные контакты подразделений университета и служб сопровождения.</p>
           </div>
           <div className="contactsGrid">
             {contacts.map((contact) => (
